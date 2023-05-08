@@ -79,4 +79,3 @@ no widgets=You haven't added anything to this page yet.;آپ نے ابھی اس 
 setup data location title=Setup Data Location;مواد محفوظ کریں
 setup data location msg=Let us setup a default location where PhysLogger will save data and screen-shots;ڈیٹا محفوظ کرنے کے لیے مناسب جگہ منتخب کریں
 default quantity source string=Source;ذریعہ
-default quantity enabled string=Output;فعل
