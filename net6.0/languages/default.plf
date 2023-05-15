@@ -81,4 +81,3 @@ setup data location msg=Let us setup a default location where PhysLogger will sa
 default quantity source string=Source;ذریعہ
 default quantity enabled string=Output;فعل
 kindly confirm=Kindly confirm your choice;برائے مہربانی اپنے انتخاب کی تصدیق کیجیے
-delete=Delete;مٹائیں
