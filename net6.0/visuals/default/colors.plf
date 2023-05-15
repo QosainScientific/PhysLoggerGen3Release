@@ -29,3 +29,7 @@ checkbox true = 75,158,86
 notification warning = #e9d8a6
 notification error = #fcb9b2
 notification ok = #cfe1b9
+plot value marker a = #005f73
+plot value marker b = #ae2012
+value marker region +ive = #20005f73
+value marker region -ive = #20ae2012

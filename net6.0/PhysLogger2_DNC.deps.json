@@ -10,6 +10,7 @@
         "dependencies": {
           "ArduinoSketchUploader_DNC": "1.0.0",
           "ArduinoUploader_DNC": "1.0.0",
+          "CSharpMath.SkiaSharp": "0.5.1",
           "FolderDialog.Bll": "1.0.0",
           "JetBrains.Annotations": "2022.3.1",
           "MathNet.Numerics": "5.0.0",
@@ -32,6 +33,53 @@
           "lib/netstandard2.0/CommandLine.dll": {
             "assemblyVersion": "2.8.0.0",
             "fileVersion": "2.8.0.0"
+          }
+        }
+      },
+      "CSharpMath/0.5.1": {
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/CSharpMath.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CSharpMath.Editor/0.5.1": {
+        "dependencies": {
+          "CSharpMath": "0.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/CSharpMath.Editor.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CSharpMath.Rendering/0.5.1": {
+        "dependencies": {
+          "CSharpMath.Editor": "0.5.1",
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/CSharpMath.Rendering.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CSharpMath.SkiaSharp/0.5.1": {
+        "dependencies": {
+          "CSharpMath.Rendering": "0.5.1",
+          "SkiaSharp": "2.88.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/CSharpMath.SkiaSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -1154,6 +1202,34 @@
       "sha512": "sha512-eco2HlKQBY4Joz9odHigzGpVzv6pjsXnY5lziioMveQxr+i2Z7xYcIOMeZTgYiqnMtMAbXMXsVhrNfWO5vJS8Q==",
       "path": "commandlineparser/2.8.0",
       "hashPath": "commandlineparser.2.8.0.nupkg.sha512"
+    },
+    "CSharpMath/0.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CBAtejk24icPQNJWPjUDGUqklNLpfglpRxQljiezn2MQrxL5cIVuouCVnw6ipU3cft9Tq8YfS6f/JPhSjhFtFA==",
+      "path": "csharpmath/0.5.1",
+      "hashPath": "csharpmath.0.5.1.nupkg.sha512"
+    },
+    "CSharpMath.Editor/0.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-q5MFAjI7TO41PtGFNHBFwOw3J3IS7Dnm7aJHEgPxMWE5wl1H5byOo0pJnGwXevjhoSRssGRJH2KCXgn0KbGJFQ==",
+      "path": "csharpmath.editor/0.5.1",
+      "hashPath": "csharpmath.editor.0.5.1.nupkg.sha512"
+    },
+    "CSharpMath.Rendering/0.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H4tctQzgpQmLICON1QAJtfm3/dj4exoxEKTuF9oO5YkHXMANWNfOQKwVtAx6n78hcD6WidwF2v2pH8Z/cOw/gg==",
+      "path": "csharpmath.rendering/0.5.1",
+      "hashPath": "csharpmath.rendering.0.5.1.nupkg.sha512"
+    },
+    "CSharpMath.SkiaSharp/0.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3SMI0o2EZi2/GskH6T5s9GDaBq9u0VBd/o8Geqd+FyPxEXCcmzECOZ3PdVdob/YNevl4okOTbqZrHZS2O28/ZQ==",
+      "path": "csharpmath.skiasharp/0.5.1",
+      "hashPath": "csharpmath.skiasharp.0.5.1.nupkg.sha512"
     },
     "glfw/3.3.8": {
       "type": "package",
